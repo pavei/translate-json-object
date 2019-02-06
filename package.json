@@ -1,11 +1,9 @@
 {
   "name": "asksuite-translate-json-object",
-  "version": "0.0.25-development",
+  "version": "0.0.26",
   "description": "Translate a JSON object to any language via google or yandex translate API",
   "main": "lib/translate-json-object.js",
   "scripts": {
-    "commit": "git-cz",
-    "commitmsg": "validate-commit-msg",
     "lint": "xo",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watchAll",
@@ -13,7 +11,7 @@
     "docs": "jsdoc2md lib/translate-json-object.js > docs/api.md"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
+    "bluebird": "^3.5.3",
     "google-translate": "2.0.5",
     "lodash": "4.17.3",
     "md5": "^2.2.1",
